@@ -4,11 +4,16 @@ import Aux from '../../hoc/AUX1/Aux1';
 import classes from './Applicants.css';
 import Informationbar from '../../components/Navigation/Informationbar/Informationbar';
 import SearchInput from '../../components/UI/SearchInput/SearchInput';
+import { withRouter } from "react-router";
+import axios from '../../axios-order';
 class Applicants extends Component {
     state = {
         filtered: this.props.applicants
     }
     handleSearchChange = (event) => {
+        this.props.history.push(axios.defaults.baseURL+'/'+'?search=' + event.target.value );
+        if (event.target.value === '')
+            this.props.history.push('/Applicants');
         event.preventDefault();
         this.setState({ filtered: this.props.applicants });
         const value = event.target.value;
@@ -106,4 +111,4 @@ class Applicants extends Component {
         );
     }
 }
-export default Applicants;
+export default withRouter(Applicants);
