@@ -1,0 +1,35 @@
+.NavigationItems {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    height: 100%;
+}
+
+@media(min-width:500px) {
+    .NavigationItems {
+        flex-flow: row;
+    }
+
+    .msgs {
+        display: inherit;
+    }
+}
+.InfoText{
+    font-size: 12px;
+    color:#4A4A4A;
+}
+.NavigationItems li {
+    position: relative;
+    border-right: 1px solid #E6E6E6;
+    text-align: center;
+    padding-bottom: 5px;
+    width: 35%;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.NavigationItems li:last-child {
+    border-right: none;
+}
+

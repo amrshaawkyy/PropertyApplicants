@@ -1,0 +1,65 @@
+.UL {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.UL li {
+    flex-grow: 1;
+    flex-basis: 20%;
+    list-style-type: none;
+    padding: 15px 30px;
+    max-width: 320px;
+}
+@media(max-width:650px) {
+    .UL {
+        display: inherit;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    
+    .UL li {
+        display: inline-block;
+        padding: 14px;
+        text-decoration: none;
+    }
+}
+.Applicants {
+    margin: 2% 5% 5% 5%;
+}
+
+.Informationbar {
+    padding-bottom: 0.5%;
+}
+
+.Search {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40%;
+    margin-left: 3%;
+}
+
+@media (max-width:700px) {
+    .box {
+        width: 40%;
+    }
+    .Search {
+        width: 80%;
+    }
+}
+
+.ex {
+    display: inline-block;
+    max-width: 400px;
+    padding: 7px;
+    border-radius: 5%;
+    text-align: center;
+    margin: 5px;
+}
+.ex select{
+    margin-right: 10px;
+    width: 80px;
+    height: 33px;
+    border: 1px solid #E6E6E6;
+}

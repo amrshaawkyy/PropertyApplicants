@@ -1,0 +1,26 @@
+.Footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #E5E5E5;
+    color: white;
+    text-align: center;
+}
+
+.Footer p {
+    display: inherit;
+    color: #4A4A4A;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+@media(max-width:499px) {
+    .MobileOnly {
+        display: none;
+    }
+}

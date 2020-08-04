@@ -1,0 +1,16 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media(min-width:499px) {
+  html {
+    border-left: 35px solid #E5E5E5;
+    border-right: 35px solid #E5E5E5;
+  }
+}
+body{
+  background-color: white;
+  width: 100%;
+}

@@ -1,0 +1,91 @@
+[{
+  "id": 1,
+  "FirstName": "Hilda",
+  "LastName": "Giametti",
+  "Email": "hgiametti0@hostgator.com",
+  "PhoneNumber": "405-944-4651",
+  "Status": "Offer_Accepted",
+  "DateOfAction": "2020-06-28 13:22:22",
+  "Bid": "€7,18"
+}, {
+  "id": 2,
+  "FirstName": "Anatol",
+  "LastName": "Twitchings",
+  "Email": "atwitchings1@blogger.com",
+  "PhoneNumber": "446-599-2753",
+  "Status": "Offer_Accepted",
+  "DateOfAction": "2019-08-11 00:47:51",
+  "Bid": "€8,51"
+}, {
+  "id": 3,
+  "FirstName": "Gill",
+  "LastName": "Faithfull",
+  "Email": "gfaithfull2@creativecommons.org",
+  "PhoneNumber": "680-939-7113",
+  "Status": "Appointment_Set",
+  "DateOfAction": "2019-12-06 07:47:22",
+  "Bid": "€3,56"
+}, {
+  "id": 4,
+  "FirstName": "Gerrilee",
+  "LastName": "Dacres",
+  "Email": "gdacres3@lulu.com",
+  "PhoneNumber": "571-499-7432",
+  "Status": "Property_Viewed",
+  "DateOfAction": "2019-09-16 15:13:17",
+  "Bid": "0"
+}, {
+  "id": 5,
+  "FirstName": "Cristen",
+  "LastName": "Jahnisch",
+  "Email": "cjahnisch4@blogger.com",
+  "PhoneNumber": "269-273-1912",
+  "Status": "Appointment_Set",
+  "DateOfAction": "2020-05-18 19:10:36",
+  "Bid": "€8,64"
+}, {
+  "id": 6,
+  "FirstName": "Lily",
+  "LastName": "Cant",
+  "Email": "lcant5@cbslocal.com",
+  "PhoneNumber": "494-552-1236",
+  "Status": "Interested",
+  "DateOfAction": "2019-10-12 06:28:54",
+  "Bid": "€1,28"
+}, {
+  "id": 7,
+  "FirstName": "Abra",
+  "LastName": "Huetson",
+  "Email": "ahuetson6@unicef.org",
+  "PhoneNumber": "526-853-0919",
+  "Status": "Offer_Accepted",
+  "DateOfAction": "2020-06-01 16:27:26",
+  "Bid": "€7,63"
+}, {
+  "id": 8,
+  "FirstName": "Elysee",
+  "LastName": "Shoutt",
+  "Email": "eshoutt7@reference.com",
+  "PhoneNumber": "424-185-8308",
+  "Status": "Interested",
+  "DateOfAction": "2019-09-05 04:41:51",
+  "Bid": "€7,52"
+}, {
+  "id": 9,
+  "FirstName": "Upton",
+  "LastName": "Hocking",
+  "Email": "uhocking8@spiegel.de",
+  "PhoneNumber": "530-611-0194",
+  "Status": "Interested",
+  "DateOfAction": "2019-09-04 13:04:31",
+  "Bid": "€2,51"
+}, {
+  "id": 10,
+  "FirstName": "Alana",
+  "LastName": "Morling",
+  "Email": "amorling9@cpanel.net",
+  "PhoneNumber": "571-602-8941",
+  "Status": "Interested",
+  "DateOfAction": "2020-06-10 15:27:16",
+  "Bid": "€2,30"
+}]

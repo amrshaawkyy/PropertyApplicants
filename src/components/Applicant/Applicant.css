@@ -1,0 +1,45 @@
+[data-letters]:before {
+    content: attr(data-letters);
+    display: inline-block;
+    font-size: 1em;
+    width: 4em;
+    height: 4em;
+    line-height: 4em;
+    text-align: center;
+    border-radius: 50%;
+    background: red;
+    vertical-align: middle;
+    color: white;  
+    font-family: arial;
+    font-size: 15px;
+}
+
+.Card {
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    font-size: 12px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.Card p {
+    margin-bottom: 2%;
+}
+
+.ActionTime span {
+    background-color: #9D9D9D;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.Bid span {
+    background-color: #FEB902;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
