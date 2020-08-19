@@ -1,6 +1,20 @@
 
 # PROJECT PropertyApplicants
 
+## Description
+```
+Data (using Mockaroo for creating APIs)
+‘Axios’ was used to get the data and fill the state in the stateful component.
+
+Hints:
+o Side Drawer that contains the Drawer Toggle for the mobile App.
+o Search Input used to search for applicants by first name or last name or e-mail.
+o Spinner appears when the page is loading.
+o Applicants View is the main class that fetches the data from the API and passes it to the remaining components.
+
+```
+
+
 ## Requirements
 
 For development, you will only need Node.js installed on your environement.
