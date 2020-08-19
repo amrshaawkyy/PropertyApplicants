@@ -1,68 +1,103 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# PROJECT PropertyApplicants
 
-In the project directory, you can run:
+## Requirements
 
-### `npm start`
+For development, you will only need Node.js installed on your environement.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Node
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[Node](http://nodejs.org/) is really easy to install & now include [NPM](https://npmjs.org/).
+You should be able to run the following command after the installation procedure
+below.
 
-### `npm test`
+    $ node --version
+    v0.10.24
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    $ npm --version
+    1.3.21
 
-### `npm run build`
+#### Node installation on OS X
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You will need to use a Terminal. On OS X, you can find the default terminal in
+`/Applications/Utilities/Terminal.app`.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Please install [Homebrew](http://brew.sh/) if it's not already done with the following command.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    $ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
-### `npm run eject`
+If everything when fine, you should run
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    brew install node
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Node installation on Linux
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    sudo apt-get install python-software-properties
+    sudo add-apt-repository ppa:chris-lea/node.js
+    sudo apt-get update
+    sudo apt-get install nodejs
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Node installation on Windows
 
-## Learn More
+Just go on [official Node.js website](http://nodejs.org/) & grab the installer.
+Also, be sure to have `git` available in your PATH, `npm` might need it.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Install
 
-### Code Splitting
+    $ git clone https://github.com/amrshaawkyy/PropertyApplicants
+    $ cd PROJECT
+    $ npm install
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Start & watch
 
-### Analyzing the Bundle Size
+    $ npm start
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Simple build for production
 
-### Making a Progressive Web App
+    $ npm run build
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Update sources
 
-### Advanced Configuration
+Some packages usages might change so you should run `npm prune` & `npm install` often.
+A common way to update is by doing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+    $ git pull
+    $ npm prune
+    $ npm install
 
-### Deployment
+To run those 3 commands you can just do
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+    $ npm run pull
 
-### `npm run build` fails to minify
+## Enable git hooks (unix only :/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+    $ npm run create-hook-symlinks
+
+### `post-merge` (≃ `npm install`)
+
+This hook will `npm prune && npm install` each time you `git pull` something if the `package.json` has been modified.
+
+### `pre-commit` (≃ `npm test`)
+
+This hook will just ensure you will commit something not broken bye pruning npm packages not in the `package.json` & eventually reinstall missings/not correctly removed packages.
+Then it will try a production build.
+
+---
+
+## Languages & tools
+
+### HTML
+
+### CSS
+
+### JavaScript
+
+- [React](http://facebook.github.io/react).
+- [Webpack](https://webpack.js.org/).
+- [Babel](https://babeljs.io/).
+
+### Axios
+
+
