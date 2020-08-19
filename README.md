@@ -6,6 +6,8 @@
 Data (using Mockaroo for creating APIs)
 ‘Axios’ was used to get the data and fill the state in the stateful component.
 
+Using the application you are able to list all the applicants to your property, see their status, and search for specific applicants.
+
 Hints:
 o Side Drawer that contains the Drawer Toggle for the mobile App.
 o Search Input used to search for applicants by first name or last name or e-mail.
