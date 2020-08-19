@@ -17,7 +17,7 @@ const toolbar = (props) => (
             <NavigationItems />
         </nav>
         <nav className={classes.MobileOnly}>
-            <img src={active} alt="McMakler" />
+            <img src={active} alt="LOGO" />
         </nav>
     </header>
 );
