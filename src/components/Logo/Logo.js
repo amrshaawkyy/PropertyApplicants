@@ -4,6 +4,6 @@ import classes from './Logo.css';
 const logo=(props)=>(
     <div className={classes.Logo} style={{height: props.height}}>
         <img src={propertyApplicants} alt="McMakler"/>
-    </div>
+    </div> 
 );
 export default logo;
